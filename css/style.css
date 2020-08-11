@@ -1,0 +1,149 @@
+/*GENERAL*/
+
+/*{outline:1px solid black;}*/
+body{
+font-family: 'Source Sans Pro', sans-serif;
+color:grey;
+background:white;
+width:1200px;
+margin:0 auto;
+}
+a {
+    text-decoration:none ;
+ }
+strong{
+    font-weight: 700;}
+
+h2{
+    color:rgb(233, 76, 67);
+    font-weight: 300;
+    font-size: 28px;
+    padding:  20px 0px;
+ }
+
+/*NAVI*/
+.navigation{
+    background: rgb(233, 76, 67);
+    color: seashell;
+    height: 80px;
+    text-align: center;
+}
+
+.navigation li{
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    padding: 30px 10px;
+    font-size: 20px;
+    }
+
+*.navigation a{
+    color: seashell;
+}
+
+.navigation a:hover,
+.navigation a:focus{
+    color: #222;
+    background-color: rgba(255, 245, 238, 0.5);
+    padding: 15px 10px;
+    border-radius: 9px;
+    transition: background-color 0.8s ease;
+}
+
+/*HEADER*/
+.logo {
+    background:url(../img/logo.jpg) center no-repeat;
+    height: 200px;}
+
+.logo a{
+    display:block;
+    text-indent: -9999px;
+}
+
+.container {
+    background:url(../img/pozadi.jpg) center no-repeat;
+    height: 700px;}
+
+.container a{
+    display:block;
+    text-indent: -9999px;
+}
+/*MAIN*/
+
+.uvod{
+    text-align: center;
+    font-size: 30px;
+}
+.uvod p{
+    margin: 10px 10%;
+    line-height: 2;
+}
+
+.uvod .bold{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.visit{
+    font-size: 30px;
+    padding: 15px 44px;
+    background: rgb(233, 76, 67);
+    color: seashell;
+    border-radius: 9px;
+    margin:50px auto;
+    width: 220px;
+    text-align: center;
+    cursor: pointer;
+    }
+
+.visit:hover,
+.visit:focus{
+    font-weight: 700;
+    background-color:  rgb(233, 76, 67, 0.8);
+    border: 1px solid rgb(233, 76, 67);
+    transition: background-color 0.6s ease;
+    transition: border 0.6s ease;
+}
+
+/* FOOTER*/
+.medialist{
+    background: rgb(233, 76, 67);
+    height: 600px;
+    text-align: center;
+    }
+
+.medialist li{
+    display:inline-block;
+    padding: 200px 20px 100px;
+    }
+
+.medialist a{
+    color: rgb(253, 208, 175);
+    font-size: 50px;
+}
+.medialist .selected,
+.medialist a:focus,
+.medialist a:hover{
+    color: seashell;
+}
+.copywritte{
+    color: rgb(253, 208, 175);
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.copywritte span:before{
+    content: "© ";
+   font-weight: 300;
+}
+
+.heart{
+    color: rgb(253, 208, 175);
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.heart span:before{
+    content:"❤";
+}
